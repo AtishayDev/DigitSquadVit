@@ -2,13 +2,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	
 }
 body {
 	font-family: "TT Norms";
+	overflow-x: hidden;
 }
 nav {
 	height: 10vh;
-	/* width: 100vw; */
+	width: 100vw;
 	background-color: #272e38;
 }
 .landing {
@@ -53,6 +55,12 @@ nav {
 .typer {
 	color: #fc352f;
 	font-weight: 500;
+}
+#article{
+	text-align:center;
+	margin:auto 20%;
+	border: 1px solid rgb(204, 59, 59);
+	padding: 5%
 }
 @media screen and (max-width: 768px) {
 	.main-txt {
@@ -146,7 +154,7 @@ nav {
 	}
 	.nav-links {
 		position: fixed;
-		background-color: #404c5e;
+		background-color: #272e38;
 		height: 100vh;
 		width: 100vw;
 		flex-direction: column;
@@ -171,7 +179,8 @@ nav {
 		-ms-transform: rotate(-45deg); /* IE 9 */
 		transform: rotate(-45deg);
 		transition: all 0.5s ease 0.2s;
-		margin-top: 0px;
+		margin-top: -2.4px;
+
 	}
 	.line:nth-child(3).cross {
 		display: none;
@@ -185,7 +194,16 @@ nav {
 	.nav-links li a {
 		font-size: 24px;
 	}
-
+	#gone{
+		display: none;
+	}
+	#article{
+		margin:auto 5%;
+	}
+	.mobile_center{
+		display: flex;
+  	justify-content: center;
+	}
 	/* .nav-links li:nth-child(1) {
 		transition: all 0.5s ease 0.2s;
 	}
