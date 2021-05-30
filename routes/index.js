@@ -21,6 +21,10 @@ router.get('/Blog', (req, resp) => {
 	resp.render('blog');
 });
 
+router.get('/Blogs', (req, resp) => {
+	resp.render('blogs');
+});
+
 //events page
 router.get('/Events', (req, resp) => {
 	resp.render('events');
