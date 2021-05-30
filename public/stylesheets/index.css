@@ -8,6 +8,23 @@ body {
 	font-family: "TT Norms";
 	overflow-x: hidden;
 }
+html {
+	scrollbar-face-color: #646464;
+	scrollbar-base-color: #646464;
+	scrollbar-3dlight-color: #646464;
+	scrollbar-highlight-color: #646464;
+	scrollbar-track-color: #000;
+	scrollbar-arrow-color: #000;
+	scrollbar-shadow-color: #646464;
+  }
+  
+  ::-webkit-scrollbar { width: 8px; height: 3px;}
+  ::-webkit-scrollbar-button {  background-color: #666; }
+  ::-webkit-scrollbar-track {  background-color: #646464;}
+  ::-webkit-scrollbar-track-piece { background-color: #000;}
+  ::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+  ::-webkit-scrollbar-corner { background-color: #646464;}}
+  ::-webkit-resizer { background-color: #666;}
 nav {
 	height: 10vh;
 	width: 100vw;
@@ -125,7 +142,7 @@ nav {
 }
 .nav-links li a {
 	/* color: #fa3d38; */
-	color: azure;
+	color: rgb(164, 245, 245);
 	text-decoration: none;
 	font-size: larger;
 	font-weight: 500;
@@ -154,7 +171,7 @@ nav {
 	}
 	.nav-links {
 		position: fixed;
-		background-color: #272e38;
+		background-color: rgb(24, 26, 27);
 		height: 100vh;
 		width: 100vw;
 		flex-direction: column;
