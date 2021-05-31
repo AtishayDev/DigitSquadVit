@@ -10,7 +10,7 @@
 }
 body {
 	font-family: "TT Norms";
-	overflow-x: hidden;
+	overflow-x: hidden !important;
 }
 html {
 	scrollbar-face-color: #646464;
@@ -153,6 +153,9 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+	body{
+		overflow-x: hidden !important;
+	}
 	.line {
 		width: 30px;
 		height: 3px;
@@ -363,6 +366,9 @@ nav {
 	border-left: 4px solid #222;
 	padding-left: 25px;
 }
+.social-media{
+	color: #fff;
+}
 
 .timeline-container h2 {
 	font-family: Langar;
@@ -513,8 +519,8 @@ footer {
 .right-col {
 	margin-top: -130px;
 }
-.social-media a {
-	color: #001a21;
+.social-media a{
+	color: #fff;
 	margin-right: 25px;
 	font-size: 22px;
 	text-decoration: none;
