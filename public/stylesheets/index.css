@@ -5,7 +5,7 @@
 	
 }
 #abc{
-	font-family: 'Mandalore Laser';
+	font-family: 'Mandalore Laser','Righteous',serif;
 	src: url("//db.onlinewebfonts.com/t/595e6dc6ddf5d4d1c915fe652fc95801.eot"); src: url("//db.onlinewebfonts.com/t/595e6dc6ddf5d4d1c915fe652fc95801.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/595e6dc6ddf5d4d1c915fe652fc95801.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/595e6dc6ddf5d4d1c915fe652fc95801.woff") format("woff"), url("//db.onlinewebfonts.com/t/595e6dc6ddf5d4d1c915fe652fc95801.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/595e6dc6ddf5d4d1c915fe652fc95801.svg#Mandalore Laser") format("svg");
 }
 body {
